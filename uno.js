@@ -39,7 +39,7 @@ function mostrar()
 	var maxMarcaProducto;
 	var maxTipoProducto;	
 
-	for (i=0; i<2; i++)
+	for (i=0; i<5; i++)
 	{
 		tipoProducto = prompt("ingrese el tipo de producto comprado").toLowerCase();
 		while(tipoProducto != "alcohol" && tipoProducto != "iac" && tipoProducto != "quat")
